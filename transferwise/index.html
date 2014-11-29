@@ -2,13 +2,19 @@
 <html>
 <head>
 	<meta charset="utf-8">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles/bootstrap.css" >
    <link rel="stylesheet" href="css/bootstrap-select.css" >
-   <link href="js/bootstrap-select.js" >
+
+   <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+      
+      <script src="js/bootstrap-select.js"></script>
+
+  
   <link rel="stylesheet" href="styles/style.css" type="text/css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
-  </script>
+  
   <script src="scripts/script.js"></script>
 </head>
 <body>
@@ -22,17 +28,13 @@
          		<button id="inputButton" class="btn btn-lg btn-success col-md-6 col-xs-6 col-xs-push-3 " >Send to myself</button>
          		<button id="inputButton" class="btn btn-lg btn-success col-md-6 col-xs-6 col-xs-push-3 " >Submit</button>
 
-         		<select class="selectpicker" style="display: none;">
-    				<option>Mustard</option>
-    				<option>Ketchup</option>
-   					 <option>Relish</option>
- 				 </select>
+         		<select class="selectpicker">
+               <option>Mustard</option>
+               <option>Ketchup</option>
+              <option>Barbecue</option>
+      </select>
 
-         		<button type="button" class="btn dropdown-toggle selectpicker btn-default" data-toggle="dropdown" title="Mustard">
-         			<span class="filter-option pull-left">Mustard</span>&nbsp;<span class="caret"> </span>
-         		</button>
-
-
+          <button onclick="sendRequest()" class="btn btn-lg btn-success col-md-6 col-xs-6 col-xs-push-3 " >Send Money</button>
           	
 
           
