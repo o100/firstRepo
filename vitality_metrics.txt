@@ -1,0 +1,15 @@
+As you see from our prototype, we added few options for adding the recipient. 
+Beside sending money directly to bank account or via the email, we added a telephone number and Facebook options.
+
+Quantitative metrics:
+	1. based on information from database, we would analyse which options (buttons) are used for successful 
+		transfers;
+	2. analysing unsuccessful transfers, we would find out which steps are the bottlenecks;
+	3. by adding click counters for all options, the most popular/unpopular options could be 
+		filtered out (includes AB testing);
+	4. analysing the connection between the channel by which the customer finds TransferWise 
+		and which option he or she uses for adding the recipient;
+	5. measure the transfer speed and see which options (buttons) are the fastest.
+	
+Qualitative metrics:
+	6. customer feedback (positive and negative);
